@@ -1,0 +1,59 @@
+﻿
+.dialog-validate {
+    width: 500px;
+    height: 180px;
+    border: 1px solid #0094FF;
+    border-radius: 5px;
+    position: fixed;
+    top: calc(50% - 105px);
+    right: calc(50% - 260px);
+    background: #fff;
+}
+
+.header {
+    width: calc(100% - 10px);
+    height: 40px;
+    background: #0D81CE;
+    color: #F0F0F0;
+    font-size: 15px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+.body {
+    height: calc(100% - 75px);
+}
+
+    .body .notice-icon {
+        width: 30px;
+        height: 13px;
+        background-image: url(/content/image/Images/IconSprite.png);
+        background-position: 0 -258px;
+        background-repeat: no-repeat;
+        transform: scale(1.7);
+        margin: 20px;
+    }
+
+     .notice-text {
+        padding-top: 15px;
+        font-size: 14px;
+    }
+
+.footer {
+    position: relative;
+}
+
+    .footer #btnOke {
+        position: absolute;
+        top: 0px;
+        right: 10px;
+        border: 1px solid transparent;
+        padding: 13px 16px;
+        font-size: 14px;
+        background: #E0DFDF;
+    }
+
+        .footer #btnOke:focus,
+        .footer #btnOke:hover {
+            border: 1px solid #178AD6;
+        }
